@@ -1,0 +1,55 @@
+@mixin border_radius($radius) {
+    -webkit-border-radius:$radius;
+    -moz-border-radius:$radius;
+    -o-border-radius:$radius;
+    -ms-border-radius:$radius;
+    border-radius:$radius;
+}
+@mixin border-radius30 {
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px;
+    border-radius:30px;
+}
+@mixin boxsizing {
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+}
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin padding($padding) {
+    padding: $padding;
+}
+@mixin flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+}
+@mixin align-center {
+    align-items: center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -o-align-items:center;
+    -ms-align-items:center;
+}
+@mixin justify-spacebetween {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between
+}
+@mixin grid {
+    display: grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    display: -o-grid;
+    //display: -ms-grid
+}

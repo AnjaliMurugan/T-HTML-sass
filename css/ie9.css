@@ -1,0 +1,23 @@
+.bodysection1 .grid_wrapper .about_us, .bodysection1 .grid_wrapper .testimonial_content, .bodysection1 .grid_wrapper .our_services {
+  float: left;
+  width: 32%;
+  margin-left: 2%; }
+.bodysection1 .grid_wrapper .about_us {
+  margin-left: 0; }
+.bodysection1 .grid_wrapper .our_services .service_list {
+  overflow: hidden\9; }
+  .bodysection1 .grid_wrapper .our_services .service_list img {
+    float: left;
+    height: 64px\9; }
+  .bodysection1 .grid_wrapper .our_services .service_list > div {
+    float: right;
+    width: 72%; }
+
+.bodysection2 .grid_wrapper2 .latest_tweets, .bodysection2 .grid_wrapper2 .quick_links, .bodysection2 .grid_wrapper2 .latest_blog, .bodysection2 .grid_wrapper2 .contact_us {
+  float: left;
+  width: 23.5%;
+  margin-left: 2%; }
+.bodysection2 .grid_wrapper2 .latest_tweets {
+  margin-left: 0; }
+
+/*# sourceMappingURL=ie9.css.map */

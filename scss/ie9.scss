@@ -1,0 +1,37 @@
+.bodysection1 {
+.grid_wrapper {
+    .about_us, .testimonial_content, .our_services {
+        float: left;
+        width: 32%;
+        margin-left:2%;
+    }
+    .about_us {
+        margin-left:0;
+    }
+    .our_services {
+        .service_list {
+            overflow: hidden\9;
+            img {
+                float: left;
+                height: 64px\9;
+            }
+            > div {
+                float: right;
+                width: 72%;
+            }
+        }
+    }
+} 
+}
+.bodysection2 {
+.grid_wrapper2 {
+    .latest_tweets, .quick_links, .latest_blog, .contact_us {
+        float: left;
+        width: 23.5%;
+        margin-left:2%;
+    }
+    .latest_tweets {
+        margin-left:0;
+    }
+}
+}
